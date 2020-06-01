@@ -8,14 +8,7 @@ int main()
     ofstream sr;
     string line;
     sr.open("item.txt");
-    /*while(sr)
-    {
-        getline(cin,line);
-        sr<<line<<endl;
-    }
-    sr.close();*/
-
-        // above code reptesent to insert in file
+    
     ifstream s;
     s.open("ex1data1.txt");
     char ch;
